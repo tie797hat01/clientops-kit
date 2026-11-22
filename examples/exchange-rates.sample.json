@@ -1,0 +1,9 @@
+{
+  "base_currency": "USD",
+  "updated_on": "2026-11-22",
+  "rates": {
+    "USD": 1,
+    "EUR": 1.08,
+    "VND": 0.000039
+  }
+}
