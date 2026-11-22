@@ -1,0 +1,29 @@
+{
+  "invoice_number": "CK-2026-001",
+  "issue_date": "2026-11-22",
+  "due_date": "2026-12-06",
+  "from": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "address": "Your business address"
+  },
+  "bill_to": {
+    "name": "Sample Client",
+    "email": "accounts@example-client.com",
+    "address": "Client business address"
+  },
+  "currency": "USD",
+  "items": [
+    {
+      "description": "Monthly social media content package",
+      "quantity": 1,
+      "unit_price": 450
+    },
+    {
+      "description": "Campaign performance report",
+      "quantity": 1,
+      "unit_price": 80
+    }
+  ],
+  "notes": "Payment is due within 14 days. Thank you for your business."
+}
