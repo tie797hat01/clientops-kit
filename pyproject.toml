@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clientops-kit"
+version = "0.1.0"
+description = "Local-first tools for freelancers working with international clients."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["reportlab>=4.2,<5"]
+
+[project.scripts]
+clientops = "clientops.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["clientops*"]
